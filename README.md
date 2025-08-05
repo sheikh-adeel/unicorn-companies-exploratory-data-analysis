@@ -14,16 +14,16 @@ The dataset contains:
 
 | Column name | Type | Description | 
 |-------------|------|-------------|
-| `Company` | str | Company name |
-| `Valuation` | str | Company valuation in billions of dollars|
-| `Date Joined` | datetime | The date in which the company reached 1 billion dollar in valuation |
-| `Industry` | str | Company industry |
-| `City` | str | City the company was founded in |
-| `Country/Region` | str | Country the company was founded in |
-| `Continent` | str | Continent the company was founded in |
-| `Year Founded` | int | Year the company was founded |
-| `Funding` | str | Total amount raised across all funding rounds in dollars |
-| `Select Investors` | str | Top investing firms or individual investors |
+| Company | str | Company name |
+| Valuation | str | Company valuation in billions of dollars|
+| Date Joined | datetime | The date in which the company reached 1 billion dollar in valuation |
+| Industry | str | Company industry |
+| City | str | City the company was founded in |
+| Country/Region | str | Country the company was founded in |
+| Continent | str | Continent the company was founded in |
+| Year Founded | int | Year the company was founded |
+| Funding | str | Total amount raised across all funding rounds in dollars |
+| Select Investors | str | Top investing firms or individual investors |
 
 
 ## **Steps**
@@ -38,9 +38,9 @@ The dataset contains:
 - Check for duplicates in the data
 - Sort the data
 - Determine the number of companies founded each year
-- Convert the Date Joined column to datetime
-- Create a Month Joined column
-- Create a Years To Join column
+- Convert the `Date Joined` column to datetime
+- Create a `Month Joined` column
+- Create a `Years To Join` column
 - Gain more insight on 2021
 - Observe weekly trends
 - Compare trends over time
